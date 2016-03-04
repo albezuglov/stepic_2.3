@@ -21,10 +21,10 @@ from qa.views import defaultOk
 urlpatterns = [
     url(r'^question/', include('qa.urls')),
     url(r'^$', defaultOk),
-    url(r'^login/$', defaultOk),
-    url(r'^signup/$', defaultOk),
-    url(r'^ask/$', defaultOk),
-    url(r'^popular/$', defaultOk),
-    url(r'^new/$', defaultOk),
+    url(r'^login/', defaultOk),
+    url(r'^signup/', defaultOk),
+    url(r'^ask/', defaultOk),
+    url(r'^popular/', defaultOk),
+    url(r'^new/', defaultOk),
 #    url(r'^admin/', admin.site.urls),
 ]
